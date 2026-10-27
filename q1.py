@@ -34,7 +34,7 @@ test = {   'name': 'q1',
                                                '...     assert m.classifier.in_features == 32 * 3 * 3, m.classifier.in_features\n'
                                                '...     assert m(torch.randn(2, 1, 28, 28)).shape == (2, 7)\n'
                                                '>>> _test_cnn_general()\n',
-                                       'hidden': True,
+                                       'hidden': False,
                                        'locked': False,
                                        'points': 3}],
                       'scored': True,
